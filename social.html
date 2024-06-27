@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <header class="flex flex-row justify-between items-center h-24 px-4 w-full">
+      <div class="max-lg:flex hidden">
+        <div class="flex flex-row space-x-3 items-center">
+          <a href="#" id="iconOpen">
+            <img class="h-6 w-6" src="./images/icon/menu.png" alt="Menu Icon" />
+          </a>
+          <img class="h-24 w-28 object-contain" src="./images/icon/logo.png" alt="Logo" />
+        </div>
+      </div>
+
+      <div class="header__menu block max-lg:hidden">
+        <ul class="flex gap-10 font-semibold">
+          <li>
+            <a href="./index.html" class="opacity-50 hover:opacity-100">Mua nhà</a>
+          </li>
+          <li>
+            <a href="./index.html" class="opacity-50 hover:opacity-100">Thuê nhà</a>
+          </li>
+          <li>
+            <a class="border-bottom--active" href="./index.html">Khám phá</a>
+          </li>
+          <li>
+            <a href="./index.html" class="opacity-50 hover:opacity-100">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="h-24 w-28 hidden lg:flex">
+        <a href="./index.html">
+          <img class="w-full h-full object-contain" src="./images/icon/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <div class="h-6 w-6 icon notify cursor-pointer">
+          <div class="has_mess"></div>
+          <img class="h-full w-full object-contain" src="./images/icon/notify.png" alt="Notify" />
+        </div>
+        <div class="h-6 w-6 icon heart cursor-pointer">
+          <div class="has_mess hidden lg:flex"></div>
+          <img class="h-full w-full object-contain" src="./images/icon/heart-black.png" alt="Heart" />
+        </div>
+        <div class="hidden lg:flex">
+          <span class="btn__post">
+            <a class="" href="#">Đăng bài</a>
+          </span>
+        </div>
+        <div class="flex items-center gap-1">
+          <div class="max-md:hidden">
+            <div class="flex flex-col text-right">
+              <span>Phạm Anh Tuấn</span>
+              <span>Intern</span>
+            </div>
+          </div>
+          <div class="w-12 h-12 cursor-pointer">
+            <img class="w-full h-full object-cover rounded-full" src="./images/icon/user.jpg" alt="User" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- BANNER -->
+      <section class="container relative">
+        <img src="./images/banner/banner.png" alt="" />
+        <div class="hidden lg:flex">
+          <div class="flex flex-col absolute top-2/4 left-28 text-white">
+            <span class="font-semibold text-5xl">Reviewnhà</span>
+            <span class="text-xl">Finding your best home</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- MENU -->
+      <section class="menu wrapper">
+        <div class="w-full overflow-x-auto">
+          <ul class="flex flex-row justify-between items-center sm:text-lg font-medium mt-3 text-color3B4144">
+            <li class="w-24 h-7 flex justify-center items-center rounded-3xl whitespace-nowrap">
+              <a href="./social.html">Tất cả</a>
+            </li>
+            <li class="bg-color007882 w-24 h-7 flex justify-center items-center rounded-3xl whitespace-nowrap">
+              <a href="./social.html" class="text-white">Xã hội</a>
+            </li>
+            <li class="w-24 h-7 flex justify-center items-center rounded-3xl whitespace-nowrap">
+              <a href="./social.html">Nhà đất</a>
+            </li>
+            <li class="w-24 h-7 flex justify-center items-center rounded-3xl whitespace-nowrap">
+              <a href="./social.html">Đời sống</a>
+            </li>
+            <li class="w-24 h-7 flex justify-center items-center rounded-3xl whitespace-nowrap">
+              <a href="./social.html">Video</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="flex flex-col gap-y-5 wrapper">
+        <div>
+          <div class="show-375px mb-2 hidden max-sm:block">
+            <h3 class="font-semibold text-base line-clamp-2">
+              Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+            </h3>
+            <div class="">
+              <div class="flex space-x-4 text-sm">
+                <span class="text-color007882 font-medium">Xã hội</span>
+                <span class="text-color3B4144 before-dot">Phạm Anh Tuấn</span>
+                <span class="opacity-50 text-color3B4144 before-dot">24/06/2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex space-x-4 items-center">
+            <div class="relative max-sm:basis-1/2">
+              <a href="./detail.html">
+                <img class="absolute sm:top-3 sm:right-3 max-sm:bottom-3 max-sm:left-3 h-7 w-7" src="./images/icon/heart-white.png" alt="" />
+                <img src="./images/posts/post_1.png" alt="" />
+              </a>
+            </div>
+
+            <div class="max-sm:basis-1/2">
+              <a href="./detail.html">
+                <h3 class="font-semibold text-xl md:line-clamp-2 max-sm:hidden">
+                  Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+                </h3>
+                <div class="max-sm:hidden">
+                  <div class="flex space-x-4 text-base">
+                    <span class="text-color007882 font-medium">Xã hội</span>
+                    <span class="text-color3B4144 before-dot">Phạm Anh Tuấn</span>
+                    <span class="opacity-50 text-color3B4144 before-dot">24/06/2024</span>
+                  </div>
+                </div>
+                <p class="text-base opacity-50 max-sm:line-clamp-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et
+                  scelerisque nullam lorem. Libero mi velit id vitae...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="show-375px mb-2 hidden max-sm:block">
+            <h3 class="font-semibold text-base line-clamp-2">
+              Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+            </h3>
+            <div class="">
+              <div class="flex space-x-4 text-sm">
+                <span class="text-color007882 font-medium">Xã hội</span>
+                <span class="text-color3B4144 before-dot">Phạm Anh Tuấn</span>
+                <span class="opacity-50 text-color3B4144 before-dot">24/06/2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <div class="relative max-sm:basis-1/2">
+              <a href="./detail.html">
+                <img class="absolute h-7 w-7 sm:top-3 sm:right-3 max-sm:bottom-3 max-sm:left-3" src="./images/icon/heart-white.png" alt="" />
+                <img src="./images/posts/post_2.png" alt="" />
+              </a>
+            </div>
+            <div class="max-sm:basis-1/2">
+              <a href="./detail.html">
+                <h3 class="font-semibold text-xl md:line-clamp-2 max-sm:hidden">
+                  Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+                </h3>
+                <div class="max-sm:hidden">
+                  <div class="flex gap-4 text-base">
+                    <span class="text-color007882 font-medium">Xã hội</span>
+                    <span class="text-color3B4144 before-dot">Phạm Anh Tuấn</span>
+                    <span class="opacity-50 text-color3B4144 before-dot">24/06/2024</span>
+                  </div>
+                </div>
+                <p class="text-base opacity-50 max-sm:line-clamp-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et
+                  scelerisque nullam lorem. Libero mi velit id vitae...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="show-375px mb-2 hidden max-sm:block">
+            <h3 class="font-semibold text-base line-clamp-2">
+              Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+            </h3>
+            <div class="">
+              <div class="flex gap-4 text-sm">
+                <span class="text-color007882 font-medium">Xã hội</span>
+                <span class="text-color3B4144 before-dot">Phạm Anh Tuấn</span>
+                <span class="opacity-50 text-color3B4144 before-dot">24/06/2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <div class="relative max-sm:basis-1/2">
+              <a href="./detail.html">
+                <img class="absolute sm:top-3 sm:right-3 max-sm:bottom-3 max-sm:left-3 h-7 w-7" src="./images/icon/heart-white.png" alt="" />
+                <img src="./images/posts/post_3.png" alt="" />
+              </a>
+            </div>
+            <div class="max-sm:basis-1/2">
+              <a href="./detail.html">
+                <h3 class="font-semibold text-xl md:line-clamp-2 max-sm:hidden">
+                  Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+                </h3>
+                <div class="max-sm:hidden">
+                  <div class="flex gap-4 text-base">
+                    <span class="text-color007882 font-medium">Xã hội</span>
+                    <span class="text-color3B4144 before-dot">Phạm Anh Tuấn</span>
+                    <span class="opacity-50 text-color3B4144 before-dot">24/06/2024</span>
+                  </div>
+                </div>
+                <p class="text-base opacity-50 max-sm:line-clamp-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et
+                  scelerisque nullam lorem. Libero mi velit id vitae...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="show-375px mb-2 hidden max-sm:block">
+            <h3 class="font-semibold text-base line-clamp-2">
+              Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+            </h3>
+            <div class="">
+              <div class="flex gap-4 text-sm">
+                <span class="text-color007882 font-medium">Xã hội</span>
+                <span class="text-color3B4144 before-dot">Phạm Anh Tuấn</span>
+                <span class="opacity-50 text-color3B4144 before-dot">24/06/2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex gap-4 items-center">
+            <div class="relative max-sm:basis-1/2">
+              <a href="">
+                <img class="absolute sm:top-3 sm:right-3 max-sm:bottom-3 max-sm:left-3 h-7 w-7" src="./images/icon/heart-white.png" alt="" />
+                <img src="./images/posts/post_4.png" alt="" />
+              </a>
+            </div>
+            <div class="max-sm:basis-1/2">
+              <a href="#">
+                <h3 class="font-semibold text-xl md:line-clamp-2 max-sm:hidden">
+                  Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+                </h3>
+                <div class="max-sm:hidden">
+                  <div class="flex space-x-4 text-base">
+                    <span class="text-color007882 font-medium">Xã hội</span>
+                    <span class="text-color3B4144 before-dot">Phạm Anh Tuấn</span>
+                    <span class="opacity-50 text-color3B4144 before-dot">24/06/2024</span>
+                  </div>
+                </div>
+                <p class="text-base opacity-50 max-sm:line-clamp-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et
+                  scelerisque nullam lorem. Libero mi velit id vitae...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- MODAL MENU -->
+    <section id="modal" class="hidden">
+      <div class="h-screen flex flex-col gap-24 p-2">
+        <div class="flex flex-row gap-3 items-center">
+          <a href="#" id="iconClose">
+            <img class="h-6 w-6" src="./images/icon/close.png" alt="Menu Icon" />
+          </a>
+          <img class="h-24 w-28 object-contain" src="./images/icon/logo.png" alt="Logo" />
+        </div>
+
+        <div class="font-semibold text-3xl text-color3B4144">
+          <ul class="flex flex-col gap-10">
+            <li>
+              <a href="./index.html" class="opacity-50 hover:text-colord93c23 hover:opacity-100">Mua nhà</a>
+            </li>
+            <li>
+              <a href="./index.html" class="opacity-50 hover:text-colord93c23 hover:opacity-100">Thuê nhà</a>
+            </li>
+            <li>
+              <a href="./index.html" class="text-colord93c23 opacity-100">Khám phá</a>
+            </li>
+            <li>
+              <a href="./index.html" class="opacity-50 hover:text-colord93c23 hover:opacity-100">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-2 font-semibold mt-auto">
+          <a href="#" class="flex justify-center items-center bg-colord93c23 w-full h-10 rounded-full">
+            <span class="text-colorffffff">Đăng bài</span>
+          </a>
+          <div class="flex flex-row gap-2">
+            <a href="#" class="flex justify-center items-center bg-colorffffff w-full h-10 rounded-full">
+              <span class="text-color3B4144">Đăng nhập</span>
+            </a>
+            <a href="#" class="flex justify-center items-center bg-black w-full h-10 rounded-full">
+              <span class="text-colorffffff">Đăng ký</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
